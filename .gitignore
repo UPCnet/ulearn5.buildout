@@ -1,8 +1,5 @@
 bin/
-src/home.core
-src/home.theme
-!src/agendaupc
-
+src/
 .mr.developer.cfg
 
 # Byte-compiled / optimized / DLL files
@@ -94,3 +91,4 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
