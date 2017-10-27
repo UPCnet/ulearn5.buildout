@@ -1,5 +1,6 @@
 bin/
-src/
+#src/
+
 .mr.developer.cfg
 
 # Byte-compiled / optimized / DLL files
@@ -91,4 +92,3 @@ ENV/
 
 # Rope project settings
 .ropeproject
-
