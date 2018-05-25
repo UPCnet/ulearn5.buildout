@@ -10,17 +10,16 @@ varnish_url =
 dorsal =
 
 [zope-common]
-effective-user = 
+# Choose correct ZEO in the next line
+zeoaddr=${hosts:zeoserver}:${ports:zeo2}
+# Set this value if user is different from plone
+effective-user =
 
 [filestorage]
-parts = 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+# Set values corresponding to the chosen ZEO
+parts = 27 28 29 30 31 32 33 34 35 36
 
 [hosts]
+# Change this value to the corresponding name of ZEO server
 zeoserver = 127.0.0.1
 python-interval = 1300
-
-[zeoaddr]
-zc1=${hosts:zeoserver}:${ports:zeo1}
-zc2=${hosts:zeoserver}:${ports:zeo1}
-zc3=${hosts:zeoserver}:${ports:zeo1}
-zc4=${hosts:zeoserver}:${ports:zeo1}

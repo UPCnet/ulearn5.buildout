@@ -1,13 +1,8 @@
-[ldapconfig]
-bindpasswd = ********
-alt_ldap_uri =
-alt_bind_dn =
-alt_bindpasswd =
-alt_base_dn =
-
-[deployment]
-varnish_url =
-dorsal =
+[buildout]
+parts =
+    filestorage-zeo2
+    zeo2
+    backup-zeo2
 
 [zeo-common]
-effective-user = 
+effective-user =
