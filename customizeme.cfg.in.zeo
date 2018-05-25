@@ -4,5 +4,3 @@ parts =
     zeo2
     backup-zeo2
 
-[zeo-common]
-effective-user =
