@@ -1,3 +1,7 @@
+[custom]
+eggs =
+    ${ulearnexterns:eggs}
+
 [ldapconfig]
 bindpasswd = *********
 alt_ldap_uri =
@@ -13,7 +17,7 @@ dorsal =
 # Choose correct ZEO in the next line
 zeoaddr=${hosts:zeoserver}:${ports:zeo2}
 # Set this value if user is different from plone
-effective-user = 
+effective-user =
 
 [filestorage]
 # Set values corresponding to the chosen ZEO
@@ -22,4 +26,4 @@ parts = 27 28 29 30 31 32 33 34 35 36
 [hosts]
 # Change this value to the corresponding name of ZEO server
 zeoserver = 127.0.0.1
-python-interval = 1300
+python-interval = 2600
