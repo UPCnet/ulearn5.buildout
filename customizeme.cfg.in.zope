@@ -13,7 +13,9 @@ dorsal =
 # Choose correct ZEO in the next line
 zeoaddr=${hosts:zeoserver}:${ports:zeo2}
 # Set this value if user is different from plone
-effective-user = 
+effective-user =
+environment-vars +=
+      TMPDIR /Dades/plonetmp/tmp
 
 [filestorage]
 # Set values corresponding to the chosen ZEO
