@@ -9,6 +9,7 @@ alt_base_dn =
 [deployment]
 varnish_url =
 dorsal =
+varnish_to_ban = 
 
 [custom]
 parts =
