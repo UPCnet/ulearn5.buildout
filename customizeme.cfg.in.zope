@@ -1,9 +1,6 @@
 [custom]
 eggs =
     ${ulearnexterns:eggs}
-moodle_token = 
-moodle_url_pro = 
-moodle_url_pre = 
 
 [ldapconfig]
 bindpasswd = *********
