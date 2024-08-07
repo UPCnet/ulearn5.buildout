@@ -13,6 +13,3 @@ varnish_to_ban =
 
 [custom]
 parts =
-moodle_token = 
-moodle_url_pro = 
-moodle_url_pre = 
